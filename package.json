@@ -1,0 +1,26 @@
+{
+  "name": "minimum-webapp-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-omasa-kbc/minimum-webapp-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y-omasa-kbc/minimum-webapp-ts/issues"
+  },
+  "homepage": "https://github.com/y-omasa-kbc/minimum-webapp-ts#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "typescript": "^4.5.2"
+  }
+}
